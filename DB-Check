@@ -12,3 +12,6 @@ ALTER DATABASE [ePO_DCSRV-EPO_Events] SET AUTO_CLOSE OFF;
 SELECT name, is_auto_close_on
 FROM sys.databases
 WHERE name IN ('ePO_DCSRV-EPO','ePO_DCSRV-EPO_Events');
+
+SELECT @@SERVERNAME AS ServerName, @@SERVICENAME AS ServiceName;
+SELECT name FROM sys.databases ORDER BY name;
