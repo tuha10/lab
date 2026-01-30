@@ -15,3 +15,12 @@ WHERE name IN ('ePO_DCSRV-EPO','ePO_DCSRV-EPO_Events');
 
 SELECT @@SERVERNAME AS ServerName, @@SERVICENAME AS ServiceName;
 SELECT name FROM sys.databases ORDER BY name;
+
+
+-- Collation của SQL Server (instance)
+SELECT SERVERPROPERTY('Collation') AS SQLServerCollation;
+
+-- Collation của ePO Core và ePO Events DB
+SELECT name, collation_name
+FROM sys.databases
+WHERE name LIKE 'ePO%';
