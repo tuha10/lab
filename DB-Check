@@ -1,0 +1,4 @@
+Powershell: Test-NetConnection 172.16.212.11 -Port 1433 check port
+netstat -ano | findstr :1433 - checkport chính mình or telnet localhost 1433
+netstat -ano | findstr LISTENING | findstr sqlservr - check đang listen port nào
+
