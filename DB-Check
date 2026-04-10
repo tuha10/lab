@@ -24,3 +24,6 @@ SELECT SERVERPROPERTY('Collation') AS SQLServerCollation;
 SELECT name, collation_name
 FROM sys.databases
 WHERE name LIKE 'ePO%';
+
+
+FramePkg.exe /gengpomsi /SiteInfo=\\fileserver\Trellix\Sitelist.xml /FrmInstLogLoc=C:\Temp\TrellixAgentInstall.log
