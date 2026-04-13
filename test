@@ -1,1 +1,10 @@
-ok
+https://docs.trellix.com/bundle/trellix-agent-5.8.x-installation-guide/page/UUID-feb37058-ba0c-cecd-a29b-43416d995551.html
+https://docs.trellix.com/bundle/trellix-agent-5.8.x-installation-guide/page/UUID-abf81ac7-23f4-7794-b24f-8034c1881076.html
+
+cd /d C:\Temp\Trellix
+FramePkg.exe /Install=Agent /ForceInstall
+echo %TEMP%
+dir "%TEMP%\McAfeeLogs"
+dir "C:\ProgramData\McAfee\Agent\Logs"
+sc query masvc
+
