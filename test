@@ -8,3 +8,4 @@ dir "%TEMP%\McAfeeLogs"
 dir "C:\ProgramData\McAfee\Agent\Logs"
 sc query masvc
 
+C:\Program Files\McAfee\Agent\x86>FrmInst.exe /FORCEUNINSTALL
