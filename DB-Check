@@ -27,3 +27,5 @@ WHERE name LIKE 'ePO%';
 
 
 FramePkg.exe /gengpomsi /SiteInfo=\\fileserver\Trellix\Sitelist.xml /FrmInstLogLoc=C:\Temp\TrellixAgentInstall.log
+
+https://ctckivs-my.sharepoint.com/personal/dungdt_gtjas_com_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdungdt%5Fgtjas%5Fcom%5Fvn%2FDocuments%2FCybersecurity%5FTechnical%20GTJA%20%20FPT&ga=1
